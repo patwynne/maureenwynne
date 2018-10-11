@@ -1,0 +1,184 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #2B2A31;
+  cursor: url("http://jonathanwing.com/img/pizzapointer2.png"), default;
+  line-height: 1.7em;
+}
+
+p {
+  margin-top: 8vh;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  margin: 4vmax;
+  grid-gap: 10px;
+}
+
+.about {
+  margin: 1vmax;
+  padding: 1vmax;
+  text-align: left;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  top: 0;
+  background: #F4CEA0;
+  min-height: 80vh;
+  padding-top: 28vh;
+  /*   line-height: 100vh; */
+  /*   width:100%;
+  height:96vh;
+border:solid; */
+}
+
+#praise {
+  background: PaleTurquoise;
+}
+
+#bio {
+  background: Salmon;
+}
+
+#photo {
+  background: LightSalmon;
+  text-align: center;
+}
+
+.quote {
+  margin-bottom: auto;
+}
+
+.footnote {
+  margin-top: auto;
+  font-size: 12px;
+}
+
+.headshot {
+  max-width: 60%;
+  height: auto;
+  padding: 5vh;
+  display: block;
+  margin: auto;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: #2B2A31;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #FFFFFF;
+  font-weight: 999;
+}
+
+.work {
+  padding: 80px;
+  margin-top: -60px;
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: #2B2A31;
+  font-weight: normal;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3vw;
+}
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 5vh 0px 5vh 0;
+  padding-bottom: 56%;
+  /*   background: url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455459914/Portfolio/fancy-floral-pattern-384.jpg") repeat; */
+}
+
+.project iframe {
+  border: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.contact {
+  /*   height:800px; */
+  /*   min-height:800px; */
+  background: #C8F7C5;
+  padding-bottom: 160px;
+}
+
+.header {
+  padding: 160px 0 110px;
+}
+
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #90C695;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+}
+
+.contact-details:hover {
+  background: #E4F1FE;
+  color: green;
+}
+
+footer {
+  padding: 20px;
+  background: #22313F;
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+sup {
+  vertical-align: top;
+  font-size: 0.7em;
+}
